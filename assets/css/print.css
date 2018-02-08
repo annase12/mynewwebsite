@@ -1,13 +1,12 @@
 @media print {
 
-/* Jag döljer härmed headern och footern vid utskrift. Låter bilden vara kvar eftersom det inte blir så mycket kvar av utskriften.*/
+    /* Jag döljer härmed headern och footern vid utskrift. Låter bilden vara kvar eftersom det inte blir så mycket kvar av utskriften.*/
+    #header {
+        display: none;
+    }
 
-	#header{
-	display: none;
-}
-
-	#footer{
-	display: none;
-	}
+    #footer {
+        display: none;
+    }
 
 }
